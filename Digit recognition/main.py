@@ -20,7 +20,7 @@ def test(mod, dev, loader):
         for data, target in loader:
             data, target = data.to(dev), target.to(dev)
             out = mod(data)
-            test_loss += F.nll_loss(output, target, reduction='sum').item()  # sum up batch loss
+            test_loss += F.nll_loss(out, target, reduction='sum').item()  # sum up batch loss
             final = out.argmax(dim=1, keepdim=True)  # get the index of the max log-probability
             correct += final.eq(target.view_as(final)).sum().item()
             test_loss /= len(loader.dataset)
@@ -32,13 +32,13 @@ def test(mod, dev, loader):
 kwargs = {'num_workers': 1, 'pin_memory': True} if use_cuda else {}
 batch_size = 128
 dataL = torch.utils.data.DataLoader(
-    datasets.MNIST('../data', train=False, transform=transforms.Compose([
+    datasets.MNIST('./data',download=True, train=False, transform=transforms.Compose([
         transforms.ToTensor(),
         transforms.Normalize((0.1307,), (0.3081,))
     ])),
     batch_size=batch_size, shuffle=True, **kwargs)
 
-# test(model, device, dataL)
+#test(model, device, dataL)
 img = cv2.imread('digits/testpicture.png', 0)
 img = img.reshape(1, 1, 28, 28)
 img = np.float32(img)
