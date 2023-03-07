@@ -2,11 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7a7c428-cc7e-4006-9b90-9cd3e0e571e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Machine-Learning---ML.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digit recognition/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digit recognition/.idea/MLp1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digit recognition/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digit recognition/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digit recognition/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digit recognition/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digit recognition/Neural.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digit recognition/convolutional_test_model" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digit recognition/data/MNIST/raw/t10k-images-idx3-ubyte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digit recognition/data/MNIST/raw/t10k-images-idx3-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digit recognition/data/MNIST/raw/t10k-labels-idx1-ubyte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digit recognition/data/MNIST/raw/t10k-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digit recognition/data/MNIST/raw/train-images-idx3-ubyte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digit recognition/data/MNIST/raw/train-images-idx3-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digit recognition/data/MNIST/raw/train-labels-idx1-ubyte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digit recognition/data/MNIST/raw/train-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digit recognition/digits/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digit recognition/digits/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digit recognition/digits/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digit recognition/digits/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digit recognition/digits/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digit recognition/digits/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digit recognition/digits/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digit recognition/digits/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digit recognition/digits/7reach2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digit recognition/digits/7to2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digit recognition/digits/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digit recognition/digits/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digit recognition/digits/test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digit recognition/digits/test1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digit recognition/digits/testpicture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Digit recognition/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +62,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Ivan/Desktop/Machine-Learning---ML/Digit recognition",
+    "last_opened_file_path": "C:/Users/Ivan/Desktop/Machine-Learning---ML/Digit Recognition using CNN",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
